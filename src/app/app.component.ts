@@ -170,14 +170,12 @@ export class AppComponent {
   pageDown() {
     if (this.currentPage > 0) {
       this.currentPage = this.currentPage - 1;
-      console.log(this.currentPage);
     }
   }
 
   pageUp() {
     if (this.currentPage < this.images.length - 1) {
       this.currentPage = this.currentPage + 1;
-      console.log(this.currentPage);
     }
   }
 }
